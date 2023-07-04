@@ -1,0 +1,58 @@
+<addons>
+<addon id="plugin.video.3alshashaYoutube"
+	name="3alshasha Arabic Movies"
+	version="1.0.1"
+	provider-name="Pharaohs">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">3alshasha a Youtube Channel dedicated to Arabic movies and films.</summary>
+    <description lang="en">3alshasha a Youtube Channel dedicated to Arabic movies and films.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.alarab"
+  version="4.4.0"
+  name="AlArab"
+  provider-name="Bisha">
+  <requires>
+   <import addon="xbmc.python"
+            version="3.0.0"/>
+	<import addon="script.module.web-pdb" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>AlArab.net Addon</summary>
+    <description>AlArab.net Addon</description>
+
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.AlJadeedNews"
+	name="Al Jadeed News"
+	version="1.0.0"
+	provider-name="Pharaohs">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Al Jadeed Online News Replay</summary>
+    <description lang="en">Al Jadeed Online News Replay</description>
+    <platform>all</platform>
+  </extension>
+</addon>
